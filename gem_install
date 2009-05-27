@@ -1,0 +1,5 @@
+gem uninstall cns_web_as
+rm -rf pkg
+rake package
+gem install pkg/cns_web_as-0.0.2.gem
+rm -rf pkg
